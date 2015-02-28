@@ -1,1 +1,3 @@
 rootProject.name='rxswing-gui'
+include ':rxswing'
+project(':rxswing').projectDir = new File('RxSwing')
