@@ -1,3 +1,4 @@
 [submodule "RxSwing"]
 	path = RxSwing
 	url = https://github.com/mikebaum/RxSwing.git
+	branch = updateGradleBuild
