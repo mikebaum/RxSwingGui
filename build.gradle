@@ -1,6 +1,10 @@
 apply plugin: 'java'
 apply plugin: 'eclipse'
 
+repositories {
+    mavenCentral()
+}
+
 dependencies {
     compile 'io.reactivex:rxjava:1.0.7'
     testCompile 'junit:junit-dep:4.10'
